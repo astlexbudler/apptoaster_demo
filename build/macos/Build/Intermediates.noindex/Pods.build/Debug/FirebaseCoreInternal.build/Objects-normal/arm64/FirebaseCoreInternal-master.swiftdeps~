@@ -1,0 +1,27 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "816d1ce6e70630d72a7fa3d3a8ce0c01596a159035141b0a851942e4151c945f"
+build_start_time: [1677852005, 198235034]
+build_end_time: [1677852005, 245090007]
+inputs:
+  ? "/Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/Heartbeat.swift"
+  : !private [1677851977, 82757711]
+  ? "/Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatController.swift"
+  : !private [1677851977, 83093166]
+  ? "/Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatStorage.swift"
+  : !private [1677851977, 83252429]
+  ? "/Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatsBundle.swift"
+  : !private [1677851977, 83328247]
+  ? "/Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatsPayload.swift"
+  : !private [1677851977, 83484649]
+  ? "/Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/RingBuffer.swift"
+  : !private [1677851977, 82871675]
+  ? "/Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/Storage.swift"
+  : !private [1677851977, 82612991]
+  ? "/Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/StorageFactory.swift"
+  : !private [1677851977, 83561420]
+  ? "/Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/WeakContainer.swift"
+  : !private [1677851977, 83402156]
+  ? "/Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/_ObjC_HeartbeatController.swift"
+  : !private [1677851977, 82992076]
+  ? "/Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/_ObjC_HeartbeatsPayload.swift"
+  : !private [1677851977, 83174705]

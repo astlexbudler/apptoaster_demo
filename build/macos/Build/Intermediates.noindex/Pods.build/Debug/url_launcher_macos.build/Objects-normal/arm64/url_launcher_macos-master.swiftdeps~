@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "8c6c86ff5ac7ac351e58ccd058c79b83e0cdc2a728cb867caddf109fd20f46fa"
+build_start_time: [1677851995, 638147830]
+build_end_time: [1677851995, 667853832]
+inputs:
+  "/Users/hadongho/.pub-cache/hosted/pub.dev/url_launcher_macos-3.0.3/macos/Classes/UrlLauncherPlugin.swift": !private [1677237715, 310087680]

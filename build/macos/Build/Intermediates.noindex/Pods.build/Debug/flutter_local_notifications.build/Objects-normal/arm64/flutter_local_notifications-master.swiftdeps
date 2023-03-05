@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "139369c3c5ce74ae2bdefd28f7d7ad135a6b226acda5f7215fb1721e2fda9f05"
+build_start_time: [1677851995, 638143062]
+build_end_time: [1677852008, 950839042]
+inputs:
+  "/Users/hadongho/.pub-cache/hosted/pub.dev/flutter_local_notifications-13.0.0/macos/Classes/FlutterLocalNotificationsPlugin.swift": [1676446493, 862485885]

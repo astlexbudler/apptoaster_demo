@@ -1,0 +1,476 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.apptoaster.demo"
+4    android:versionCode="7"
+5    android:versionName="1.1.6" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/hadongho/Desktop/apptoaster/projects/demo/android/app/src/main/AndroidManifest.xml:22:5-66
+15-->/Users/hadongho/Desktop/apptoaster/projects/demo/android/app/src/main/AndroidManifest.xml:22:22-64
+16
+17    <queries>
+17-->/Users/hadongho/Desktop/apptoaster/projects/demo/android/app/src/main/AndroidManifest.xml:3:5-20:15
+18        <intent>
+18-->/Users/hadongho/Desktop/apptoaster/projects/demo/android/app/src/main/AndroidManifest.xml:4:9-7:18
+19            <action android:name="android.intent.action.VIEW" />
+19-->/Users/hadongho/Desktop/apptoaster/projects/demo/android/app/src/main/AndroidManifest.xml:5:13-65
+19-->/Users/hadongho/Desktop/apptoaster/projects/demo/android/app/src/main/AndroidManifest.xml:5:21-62
+20
+21            <data android:scheme="https" />
+21-->/Users/hadongho/Desktop/apptoaster/projects/demo/android/app/src/main/AndroidManifest.xml:6:13-44
+21-->/Users/hadongho/Desktop/apptoaster/projects/demo/android/app/src/main/AndroidManifest.xml:6:19-41
+22        </intent>
+23        <intent>
+23-->/Users/hadongho/Desktop/apptoaster/projects/demo/android/app/src/main/AndroidManifest.xml:8:9-11:18
+24            <action android:name="android.intent.action.DIAL" />
+24-->/Users/hadongho/Desktop/apptoaster/projects/demo/android/app/src/main/AndroidManifest.xml:9:13-65
+24-->/Users/hadongho/Desktop/apptoaster/projects/demo/android/app/src/main/AndroidManifest.xml:9:21-62
+25
+26            <data android:scheme="tel" />
+26-->/Users/hadongho/Desktop/apptoaster/projects/demo/android/app/src/main/AndroidManifest.xml:6:13-44
+26-->/Users/hadongho/Desktop/apptoaster/projects/demo/android/app/src/main/AndroidManifest.xml:6:19-41
+27        </intent>
+28        <intent>
+28-->/Users/hadongho/Desktop/apptoaster/projects/demo/android/app/src/main/AndroidManifest.xml:12:9-15:18
+29            <action android:name="android.intent.action.SENDTO" />
+29-->/Users/hadongho/Desktop/apptoaster/projects/demo/android/app/src/main/AndroidManifest.xml:13:13-67
+29-->/Users/hadongho/Desktop/apptoaster/projects/demo/android/app/src/main/AndroidManifest.xml:13:21-64
+30
+31            <data android:scheme="smsto" />
+31-->/Users/hadongho/Desktop/apptoaster/projects/demo/android/app/src/main/AndroidManifest.xml:6:13-44
+31-->/Users/hadongho/Desktop/apptoaster/projects/demo/android/app/src/main/AndroidManifest.xml:6:19-41
+32        </intent>
+33        <intent>
+33-->/Users/hadongho/Desktop/apptoaster/projects/demo/android/app/src/main/AndroidManifest.xml:16:9-19:18
+34            <action android:name="android.intent.action.SEND" />
+34-->/Users/hadongho/Desktop/apptoaster/projects/demo/android/app/src/main/AndroidManifest.xml:17:13-65
+34-->/Users/hadongho/Desktop/apptoaster/projects/demo/android/app/src/main/AndroidManifest.xml:17:21-62
+35
+36            <data android:mimeType="*/*" />
+36-->/Users/hadongho/Desktop/apptoaster/projects/demo/android/app/src/main/AndroidManifest.xml:6:13-44
+37        </intent>
+38        <intent>
+38-->[:flutter_inappwebview] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:18
+39            <action android:name="android.support.customtabs.action.CustomTabsService" />
+39-->[:flutter_inappwebview] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-90
+39-->[:flutter_inappwebview] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-87
+40        </intent>
+41    </queries>
+42
+43    <uses-permission android:name="android.permission.WAKE_LOCK" />
+43-->[:firebase_messaging] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+43-->[:firebase_messaging] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-65
+44    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Permissions options for the `notification` group -->
+44-->[:firebase_messaging] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+44-->[:firebase_messaging] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-76
+45    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+45-->[:firebase_messaging] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-77
+45-->[:firebase_messaging] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:13:22-74
+46    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+46-->[:flutter_local_notifications] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+46-->[:flutter_local_notifications] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
+47    <uses-permission android:name="android.permission.VIBRATE" />
+47-->[:flutter_local_notifications] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-66
+47-->[:flutter_local_notifications] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-63
+48    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+48-->[:flutter_local_notifications] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-81
+48-->[:flutter_local_notifications] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-78
+49    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+49-->[:flutter_local_notifications] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-79
+49-->[:flutter_local_notifications] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:12:22-76
+50    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+50-->[com.google.firebase:firebase-iid:21.1.0] /Users/hadongho/.gradle/caches/transforms-3/2c87c4629024f4709268730fb7d0bc63/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:26:5-82
+50-->[com.google.firebase:firebase-iid:21.1.0] /Users/hadongho/.gradle/caches/transforms-3/2c87c4629024f4709268730fb7d0bc63/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:26:22-79
+51
+52    <application
+53        android:name="android.app.Application"
+54        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+54-->[androidx.core:core:1.8.0] /Users/hadongho/.gradle/caches/transforms-3/9578ebd2933996235787291919ab3732/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+55        android:debuggable="true"
+56        android:icon="@mipmap/ic_launcher"
+57        android:label="데모"
+58        android:usesCleartextTraffic="true" >
+59        <activity
+60            android:name="com.apptoaster.demo.MainActivity"
+61            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+62            android:exported="true"
+63            android:hardwareAccelerated="true"
+64            android:launchMode="singleTop"
+65            android:theme="@style/LaunchTheme"
+66            android:windowSoftInputMode="adjustResize" >
+67            <meta-data
+68                android:name="io.flutter.embedding.android.NormalTheme"
+69                android:resource="@style/NormalTheme" />
+70
+71            <intent-filter>
+72                <action android:name="android.intent.action.MAIN" />
+73
+74                <category android:name="android.intent.category.LAUNCHER" />
+75            </intent-filter>
+76            <!-- 추가된 부분 시작 -->
+77            <intent-filter android:autoVerify="true" >
+78                <action android:name="android.intent.action.VIEW" />
+78-->/Users/hadongho/Desktop/apptoaster/projects/demo/android/app/src/main/AndroidManifest.xml:5:13-65
+78-->/Users/hadongho/Desktop/apptoaster/projects/demo/android/app/src/main/AndroidManifest.xml:5:21-62
+79
+80                <category android:name="android.intent.category.DEFAULT" />
+81                <category android:name="android.intent.category.BROWSABLE" />
+82                <!-- schemes -->
+83                <data android:scheme="kbbank" />
+83-->/Users/hadongho/Desktop/apptoaster/projects/demo/android/app/src/main/AndroidManifest.xml:6:13-44
+83-->/Users/hadongho/Desktop/apptoaster/projects/demo/android/app/src/main/AndroidManifest.xml:6:19-41
+84                <data android:scheme="kb-acp" />
+84-->/Users/hadongho/Desktop/apptoaster/projects/demo/android/app/src/main/AndroidManifest.xml:6:13-44
+84-->/Users/hadongho/Desktop/apptoaster/projects/demo/android/app/src/main/AndroidManifest.xml:6:19-41
+85                <data android:scheme="kakaotalk" />
+85-->/Users/hadongho/Desktop/apptoaster/projects/demo/android/app/src/main/AndroidManifest.xml:6:13-44
+85-->/Users/hadongho/Desktop/apptoaster/projects/demo/android/app/src/main/AndroidManifest.xml:6:19-41
+86            </intent-filter>
+87            <!-- 추가된 부분 끝 -->
+88        </activity>
+89
+90        <meta-data
+91            android:name="flutterEmbedding"
+92            android:value="2" />
+93
+94        <service
+94-->[:firebase_messaging] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-19:72
+95            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+95-->[:firebase_messaging] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-107
+96            android:exported="false"
+96-->[:firebase_messaging] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+97            android:permission="android.permission.BIND_JOB_SERVICE" />
+97-->[:firebase_messaging] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-69
+98        <service
+98-->[:firebase_messaging] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-26:19
+99            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+99-->[:firebase_messaging] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-97
+100            android:exported="false" >
+100-->[:firebase_messaging] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-37
+101            <intent-filter>
+101-->[:firebase_messaging] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:29
+102                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+102-->[:firebase_messaging] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-78
+102-->[:firebase_messaging] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:25-75
+103            </intent-filter>
+104        </service>
+105
+106        <receiver
+106-->[:firebase_messaging] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-35:20
+107            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+107-->[:firebase_messaging] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-98
+108            android:exported="true"
+108-->[:firebase_messaging] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-36
+109            android:permission="com.google.android.c2dm.permission.SEND" >
+109-->[:firebase_messaging] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:31:13-73
+110            <intent-filter>
+110-->[:firebase_messaging] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-34:29
+111                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+111-->[:firebase_messaging] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:17-81
+111-->[:firebase_messaging] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:25-78
+112            </intent-filter>
+113        </receiver>
+114
+115        <service
+115-->[:firebase_messaging] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:37:9-41:19
+116            android:name="com.google.firebase.components.ComponentDiscoveryService"
+116-->[:firebase_messaging] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:37:18-89
+117            android:directBootAware="true"
+117-->[com.google.firebase:firebase-common:20.3.0] /Users/hadongho/.gradle/caches/transforms-3/5810757175fd30257219551b51df6a96/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:34:13-43
+118            android:exported="false" >
+118-->[com.google.firebase:firebase-iid:21.1.0] /Users/hadongho/.gradle/caches/transforms-3/2c87c4629024f4709268730fb7d0bc63/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:31:13-37
+119            <meta-data
+119-->[:firebase_messaging] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-40:85
+120                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+120-->[:firebase_messaging] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:39:17-128
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[:firebase_messaging] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:40:17-82
+122            <meta-data
+122-->[:firebase_core] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+123                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+123-->[:firebase_core] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[:firebase_core] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+125            <meta-data
+125-->[com.google.firebase:firebase-iid:21.1.0] /Users/hadongho/.gradle/caches/transforms-3/2c87c4629024f4709268730fb7d0bc63/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+126                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+126-->[com.google.firebase:firebase-iid:21.1.0] /Users/hadongho/.gradle/caches/transforms-3/2c87c4629024f4709268730fb7d0bc63/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[com.google.firebase:firebase-iid:21.1.0] /Users/hadongho/.gradle/caches/transforms-3/2c87c4629024f4709268730fb7d0bc63/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+128            <meta-data
+128-->[com.google.firebase:firebase-messaging:23.1.1] /Users/hadongho/.gradle/caches/transforms-3/ada762b54f2f11379d22cf2dbc515360/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:55:13-57:85
+129                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+129-->[com.google.firebase:firebase-messaging:23.1.1] /Users/hadongho/.gradle/caches/transforms-3/ada762b54f2f11379d22cf2dbc515360/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:56:17-119
+130                android:value="com.google.firebase.components.ComponentRegistrar" />
+130-->[com.google.firebase:firebase-messaging:23.1.1] /Users/hadongho/.gradle/caches/transforms-3/ada762b54f2f11379d22cf2dbc515360/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:57:17-82
+131            <meta-data
+131-->[com.google.firebase:firebase-installations:17.1.2] /Users/hadongho/.gradle/caches/transforms-3/c7ad4f299e2eee6de6116b9458d66e86/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:17:13-19:85
+132                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+132-->[com.google.firebase:firebase-installations:17.1.2] /Users/hadongho/.gradle/caches/transforms-3/c7ad4f299e2eee6de6116b9458d66e86/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:18:17-127
+133                android:value="com.google.firebase.components.ComponentRegistrar" />
+133-->[com.google.firebase:firebase-installations:17.1.2] /Users/hadongho/.gradle/caches/transforms-3/c7ad4f299e2eee6de6116b9458d66e86/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:19:17-82
+134            <meta-data
+134-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/hadongho/.gradle/caches/transforms-3/6fe34c4caf8ad9c923bedeee155bcee3/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+135                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+135-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/hadongho/.gradle/caches/transforms-3/6fe34c4caf8ad9c923bedeee155bcee3/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+136                android:value="com.google.firebase.components.ComponentRegistrar" />
+136-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/hadongho/.gradle/caches/transforms-3/6fe34c4caf8ad9c923bedeee155bcee3/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+137        </service>
+138
+139        <provider
+139-->[:firebase_messaging] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:43:9-47:38
+140            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+140-->[:firebase_messaging] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:44:13-102
+141            android:authorities="com.apptoaster.demo.flutterfirebasemessaginginitprovider"
+141-->[:firebase_messaging] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:45:13-88
+142            android:exported="false"
+142-->[:firebase_messaging] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:46:13-37
+143            android:initOrder="99" />
+143-->[:firebase_messaging] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:47:13-35
+144
+145        <activity
+145-->[:flutter_inappwebview] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-20:47
+146            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+146-->[:flutter_inappwebview] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-104
+147            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+147-->[:flutter_inappwebview] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-137
+148            android:exported="false"
+148-->[:flutter_inappwebview] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
+149            android:theme="@style/AppTheme" />
+149-->[:flutter_inappwebview] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-44
+150        <activity
+150-->[:flutter_inappwebview] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:21:9-24:55
+151            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+151-->[:flutter_inappwebview] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-112
+152            android:exported="false"
+152-->[:flutter_inappwebview] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-37
+153            android:theme="@style/ThemeTransparent" />
+153-->[:flutter_inappwebview] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-52
+154        <activity
+154-->[:flutter_inappwebview] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-28:55
+155            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+155-->[:flutter_inappwebview] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-106
+156            android:exported="false"
+156-->[:flutter_inappwebview] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-37
+157            android:theme="@style/ThemeTransparent" />
+157-->[:flutter_inappwebview] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-52
+158        <activity
+158-->[:flutter_inappwebview] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:29:9-33:55
+159            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+159-->[:flutter_inappwebview] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-126
+160            android:exported="false"
+160-->[:flutter_inappwebview] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:31:13-37
+161            android:launchMode="singleInstance"
+161-->[:flutter_inappwebview] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-48
+162            android:theme="@style/ThemeTransparent" />
+162-->[:flutter_inappwebview] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-52
+163        <activity
+163-->[:flutter_inappwebview] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-38:55
+164            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+164-->[:flutter_inappwebview] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-120
+165            android:exported="false"
+165-->[:flutter_inappwebview] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-37
+166            android:launchMode="singleInstance"
+166-->[:flutter_inappwebview] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-48
+167            android:theme="@style/ThemeTransparent" />
+167-->[:flutter_inappwebview] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-52
+168
+169        <receiver
+169-->[:flutter_inappwebview] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:40:9-43:40
+170            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+170-->[:flutter_inappwebview] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-111
+171            android:enabled="true"
+171-->[:flutter_inappwebview] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-35
+172            android:exported="false" />
+172-->[:flutter_inappwebview] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:43:13-37
+173
+174        <meta-data
+174-->[:flutter_inappwebview] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:45:9-47:36
+175            android:name="io.flutter.embedded_views_preview"
+175-->[:flutter_inappwebview] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:46:13-61
+176            android:value="true" />
+176-->[:flutter_inappwebview] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:47:13-33
+177
+178        <receiver
+178-->[:flutter_local_notifications] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-18:40
+179            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+179-->[:flutter_local_notifications] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-91
+180            android:exported="false" />
+180-->[:flutter_local_notifications] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+181        <receiver
+181-->[:flutter_local_notifications] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-21:40
+182            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+182-->[:flutter_local_notifications] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-97
+183            android:exported="false" />
+183-->[:flutter_local_notifications] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
+184        <receiver
+184-->[:flutter_local_notifications] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:22:9-31:20
+185            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+185-->[:flutter_local_notifications] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-101
+186            android:exported="false" >
+186-->[:flutter_local_notifications] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-37
+187            <intent-filter>
+187-->[:flutter_local_notifications] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-30:29
+188                <action android:name="android.intent.action.BOOT_COMPLETED" />
+188-->[:flutter_local_notifications] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:26:17-79
+188-->[:flutter_local_notifications] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:26:25-76
+189                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+189-->[:flutter_local_notifications] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:27:17-84
+189-->[:flutter_local_notifications] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:27:25-81
+190                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+190-->[:flutter_local_notifications] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-82
+190-->[:flutter_local_notifications] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-79
+191                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+191-->[:flutter_local_notifications] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-82
+191-->[:flutter_local_notifications] /Users/hadongho/Desktop/apptoaster/projects/demo/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:29:25-79
+192            </intent-filter>
+193        </receiver>
+194
+195        <activity
+195-->[:url_launcher_android] /Users/hadongho/Desktop/apptoaster/projects/demo/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:74
+196            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+196-->[:url_launcher_android] /Users/hadongho/Desktop/apptoaster/projects/demo/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+197            android:exported="false"
+197-->[:url_launcher_android] /Users/hadongho/Desktop/apptoaster/projects/demo/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+198            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+198-->[:url_launcher_android] /Users/hadongho/Desktop/apptoaster/projects/demo/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-71
+199
+200        <uses-library
+200-->[androidx.window:window:1.0.0-beta04] /Users/hadongho/.gradle/caches/transforms-3/fa8aad42c825af1f34f93ab9a34c8ecb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+201            android:name="androidx.window.extensions"
+201-->[androidx.window:window:1.0.0-beta04] /Users/hadongho/.gradle/caches/transforms-3/fa8aad42c825af1f34f93ab9a34c8ecb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+202            android:required="false" />
+202-->[androidx.window:window:1.0.0-beta04] /Users/hadongho/.gradle/caches/transforms-3/fa8aad42c825af1f34f93ab9a34c8ecb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+203        <uses-library
+203-->[androidx.window:window:1.0.0-beta04] /Users/hadongho/.gradle/caches/transforms-3/fa8aad42c825af1f34f93ab9a34c8ecb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+204            android:name="androidx.window.sidecar"
+204-->[androidx.window:window:1.0.0-beta04] /Users/hadongho/.gradle/caches/transforms-3/fa8aad42c825af1f34f93ab9a34c8ecb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+205            android:required="false" />
+205-->[androidx.window:window:1.0.0-beta04] /Users/hadongho/.gradle/caches/transforms-3/fa8aad42c825af1f34f93ab9a34c8ecb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+206
+207        <receiver
+207-->[com.google.firebase:firebase-messaging:23.1.1] /Users/hadongho/.gradle/caches/transforms-3/ada762b54f2f11379d22cf2dbc515360/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:31:9-38:20
+208            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+208-->[com.google.firebase:firebase-messaging:23.1.1] /Users/hadongho/.gradle/caches/transforms-3/ada762b54f2f11379d22cf2dbc515360/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:32:13-78
+209            android:exported="true"
+209-->[com.google.firebase:firebase-messaging:23.1.1] /Users/hadongho/.gradle/caches/transforms-3/ada762b54f2f11379d22cf2dbc515360/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:33:13-36
+210            android:permission="com.google.android.c2dm.permission.SEND" >
+210-->[com.google.firebase:firebase-messaging:23.1.1] /Users/hadongho/.gradle/caches/transforms-3/ada762b54f2f11379d22cf2dbc515360/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:34:13-73
+211            <intent-filter>
+211-->[:firebase_messaging] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-34:29
+212                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+212-->[:firebase_messaging] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:17-81
+212-->[:firebase_messaging] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:25-78
+213            </intent-filter>
+214        </receiver>
+215        <!--
+216             FirebaseMessagingService performs security checks at runtime,
+217             but set to not exported to explicitly avoid allowing another app to call it.
+218        -->
+219        <service
+219-->[com.google.firebase:firebase-messaging:23.1.1] /Users/hadongho/.gradle/caches/transforms-3/ada762b54f2f11379d22cf2dbc515360/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:44:9-51:19
+220            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+220-->[com.google.firebase:firebase-messaging:23.1.1] /Users/hadongho/.gradle/caches/transforms-3/ada762b54f2f11379d22cf2dbc515360/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:45:13-82
+221            android:directBootAware="true"
+221-->[com.google.firebase:firebase-messaging:23.1.1] /Users/hadongho/.gradle/caches/transforms-3/ada762b54f2f11379d22cf2dbc515360/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:46:13-43
+222            android:exported="false" >
+222-->[com.google.firebase:firebase-messaging:23.1.1] /Users/hadongho/.gradle/caches/transforms-3/ada762b54f2f11379d22cf2dbc515360/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:47:13-37
+223            <intent-filter android:priority="-500" >
+223-->[:firebase_messaging] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:29
+224                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+224-->[:firebase_messaging] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-78
+224-->[:firebase_messaging] /Users/hadongho/Desktop/apptoaster/projects/demo/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:25-75
+225            </intent-filter>
+226        </service>
+227
+228        <provider
+228-->[com.google.firebase:firebase-common:20.3.0] /Users/hadongho/.gradle/caches/transforms-3/5810757175fd30257219551b51df6a96/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:25:9-30:39
+229            android:name="com.google.firebase.provider.FirebaseInitProvider"
+229-->[com.google.firebase:firebase-common:20.3.0] /Users/hadongho/.gradle/caches/transforms-3/5810757175fd30257219551b51df6a96/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:26:13-77
+230            android:authorities="com.apptoaster.demo.firebaseinitprovider"
+230-->[com.google.firebase:firebase-common:20.3.0] /Users/hadongho/.gradle/caches/transforms-3/5810757175fd30257219551b51df6a96/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:27:13-72
+231            android:directBootAware="true"
+231-->[com.google.firebase:firebase-common:20.3.0] /Users/hadongho/.gradle/caches/transforms-3/5810757175fd30257219551b51df6a96/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:28:13-43
+232            android:exported="false"
+232-->[com.google.firebase:firebase-common:20.3.0] /Users/hadongho/.gradle/caches/transforms-3/5810757175fd30257219551b51df6a96/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:29:13-37
+233            android:initOrder="100" />
+233-->[com.google.firebase:firebase-common:20.3.0] /Users/hadongho/.gradle/caches/transforms-3/5810757175fd30257219551b51df6a96/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:30:13-36
+234
+235        <activity
+235-->[com.google.android.gms:play-services-base:18.0.1] /Users/hadongho/.gradle/caches/transforms-3/c7232b6ce4e188bed1222fb6e790465b/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+236            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+236-->[com.google.android.gms:play-services-base:18.0.1] /Users/hadongho/.gradle/caches/transforms-3/c7232b6ce4e188bed1222fb6e790465b/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+237            android:exported="false"
+237-->[com.google.android.gms:play-services-base:18.0.1] /Users/hadongho/.gradle/caches/transforms-3/c7232b6ce4e188bed1222fb6e790465b/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+238            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+238-->[com.google.android.gms:play-services-base:18.0.1] /Users/hadongho/.gradle/caches/transforms-3/c7232b6ce4e188bed1222fb6e790465b/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+239
+240        <meta-data
+240-->[com.google.android.gms:play-services-basement:18.1.0] /Users/hadongho/.gradle/caches/transforms-3/b98038a8bb5f558b05cc7fc73ca7ad87/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+241            android:name="com.google.android.gms.version"
+241-->[com.google.android.gms:play-services-basement:18.1.0] /Users/hadongho/.gradle/caches/transforms-3/b98038a8bb5f558b05cc7fc73ca7ad87/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+242            android:value="@integer/google_play_services_version" />
+242-->[com.google.android.gms:play-services-basement:18.1.0] /Users/hadongho/.gradle/caches/transforms-3/b98038a8bb5f558b05cc7fc73ca7ad87/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+243
+244        <provider
+244-->[androidx.emoji2:emoji2:1.2.0] /Users/hadongho/.gradle/caches/transforms-3/79706406a972141c80782381f7bd6489/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+245            android:name="androidx.startup.InitializationProvider"
+245-->[androidx.emoji2:emoji2:1.2.0] /Users/hadongho/.gradle/caches/transforms-3/79706406a972141c80782381f7bd6489/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+246            android:authorities="com.apptoaster.demo.androidx-startup"
+246-->[androidx.emoji2:emoji2:1.2.0] /Users/hadongho/.gradle/caches/transforms-3/79706406a972141c80782381f7bd6489/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+247            android:exported="false" >
+247-->[androidx.emoji2:emoji2:1.2.0] /Users/hadongho/.gradle/caches/transforms-3/79706406a972141c80782381f7bd6489/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+248            <meta-data
+248-->[androidx.emoji2:emoji2:1.2.0] /Users/hadongho/.gradle/caches/transforms-3/79706406a972141c80782381f7bd6489/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+249                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+249-->[androidx.emoji2:emoji2:1.2.0] /Users/hadongho/.gradle/caches/transforms-3/79706406a972141c80782381f7bd6489/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+250                android:value="androidx.startup" />
+250-->[androidx.emoji2:emoji2:1.2.0] /Users/hadongho/.gradle/caches/transforms-3/79706406a972141c80782381f7bd6489/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+251            <meta-data
+251-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/hadongho/.gradle/caches/transforms-3/33affb74a867793ff83da66f40a914b6/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+252                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+252-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/hadongho/.gradle/caches/transforms-3/33affb74a867793ff83da66f40a914b6/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+253                android:value="androidx.startup" />
+253-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/hadongho/.gradle/caches/transforms-3/33affb74a867793ff83da66f40a914b6/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+254        </provider>
+255
+256        <service
+256-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/hadongho/.gradle/caches/transforms-3/90a1264473ea7c3437b7d59add9eca5c/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+257            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+257-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/hadongho/.gradle/caches/transforms-3/90a1264473ea7c3437b7d59add9eca5c/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+258            android:exported="false" >
+258-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/hadongho/.gradle/caches/transforms-3/90a1264473ea7c3437b7d59add9eca5c/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+259            <meta-data
+259-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/hadongho/.gradle/caches/transforms-3/90a1264473ea7c3437b7d59add9eca5c/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+260                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+260-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/hadongho/.gradle/caches/transforms-3/90a1264473ea7c3437b7d59add9eca5c/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+261                android:value="cct" />
+261-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/hadongho/.gradle/caches/transforms-3/90a1264473ea7c3437b7d59add9eca5c/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+262        </service>
+263        <service
+263-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/hadongho/.gradle/caches/transforms-3/b98e1a1618e0731e67b774290b6af269/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+264            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+264-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/hadongho/.gradle/caches/transforms-3/b98e1a1618e0731e67b774290b6af269/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+265            android:exported="false"
+265-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/hadongho/.gradle/caches/transforms-3/b98e1a1618e0731e67b774290b6af269/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+266            android:permission="android.permission.BIND_JOB_SERVICE" >
+266-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/hadongho/.gradle/caches/transforms-3/b98e1a1618e0731e67b774290b6af269/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+267        </service>
+268
+269        <receiver
+269-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/hadongho/.gradle/caches/transforms-3/b98e1a1618e0731e67b774290b6af269/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+270            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+270-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/hadongho/.gradle/caches/transforms-3/b98e1a1618e0731e67b774290b6af269/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+271            android:exported="false" />
+271-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/hadongho/.gradle/caches/transforms-3/b98e1a1618e0731e67b774290b6af269/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+272    </application>
+273
+274</manifest>

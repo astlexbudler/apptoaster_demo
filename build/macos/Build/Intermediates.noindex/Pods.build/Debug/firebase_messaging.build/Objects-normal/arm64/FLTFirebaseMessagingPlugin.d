@@ -1,0 +1,71 @@
+dependencies: \
+  /Users/hadongho/.pub-cache/hosted/pub.dev/firebase_messaging-14.2.5/macos/Classes/FLTFirebaseMessagingPlugin.m \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/build/macos/Build/Intermediates.noindex/Pods.build/Debug/firebase_messaging.build/module.modulemap \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/Target\ Support\ Files/firebase_messaging/firebase_messaging-prefix.pch \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/build/macos/Build/Intermediates.noindex/Pods.build/Debug/GoogleUtilities.build/module.modulemap \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/GoogleUtilities/GoogleUtilities/UserDefaults/Public/GoogleUtilities/GULUserDefaults.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/GoogleUtilities/GoogleUtilities/Reachability/Public/GoogleUtilities/GULReachabilityChecker.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/GoogleUtilities/GoogleUtilities/Network/Public/GoogleUtilities/GULNetworkURLSession.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/GoogleUtilities/GoogleUtilities/Network/Public/GoogleUtilities/GULNetworkMessageCode.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/GoogleUtilities/GoogleUtilities/Network/Public/GoogleUtilities/GULNetworkLoggerProtocol.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/GoogleUtilities/GoogleUtilities/Network/Public/GoogleUtilities/GULNetworkConstants.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/GoogleUtilities/GoogleUtilities/Network/Public/GoogleUtilities/GULNetwork.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/GoogleUtilities/GoogleUtilities/Network/Public/GoogleUtilities/GULMutableDictionary.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/GoogleUtilities/GoogleUtilities/NSData+zlib/Public/GoogleUtilities/GULNSData+zlib.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/GoogleUtilities/GoogleUtilities/Logger/Public/GoogleUtilities/GULLoggerLevel.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/GoogleUtilities/GoogleUtilities/Logger/Public/GoogleUtilities/GULLogger.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/NSURLSession+GULPromises.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULURLSessionDataResponse.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULSecureCoding.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULNetworkInfo.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULKeychainUtils.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULKeychainStorage.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULHeartbeatDateStorageUserDefaults.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULHeartbeatDateStorage.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULHeartbeatDateStorable.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULAppEnvironmentUtil.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/GoogleUtilities/GoogleUtilities/AppDelegateSwizzler/Public/GoogleUtilities/GULSceneDelegateSwizzler.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/GoogleUtilities/GoogleUtilities/AppDelegateSwizzler/Public/GoogleUtilities/GULApplication.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/GoogleUtilities/GoogleUtilities/AppDelegateSwizzler/Public/GoogleUtilities/GULAppDelegateSwizzler.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/Target\ Support\ Files/GoogleUtilities/GoogleUtilities-umbrella.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/build/macos/Build/Intermediates.noindex/Pods.build/Debug/firebase_core.build/module.modulemap \
+  /Users/hadongho/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Modules/module.modulemap \
+  /Users/hadongho/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterViewController.h \
+  /Users/hadongho/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterTexture.h \
+  /Users/hadongho/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterPluginMacOS.h \
+  /Users/hadongho/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterPlatformViews.h \
+  /Users/hadongho/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterPluginRegistrarMacOS.h \
+  /Users/hadongho/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterEngine.h \
+  /Users/hadongho/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterDartProject.h \
+  /Users/hadongho/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterCodecs.h \
+  /Users/hadongho/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterChannels.h \
+  /Users/hadongho/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterBinaryMessenger.h \
+  /Users/hadongho/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterMacros.h \
+  /Users/hadongho/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterAppDelegate.h \
+  /Users/hadongho/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterMacOS.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseCore.build/module.modulemap \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRVersion.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIROptions.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FirebaseCore.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRLoggerLevel.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRConfiguration.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRApp.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/Target\ Support\ Files/FirebaseCore/FirebaseCore-umbrella.h \
+  /Users/hadongho/.pub-cache/hosted/pub.dev/firebase_core-2.7.0/macos/Classes/FLTFirebasePluginRegistry.h \
+  /Users/hadongho/.pub-cache/hosted/pub.dev/firebase_core-2.7.0/macos/Classes/messages.g.h \
+  /Users/hadongho/.pub-cache/hosted/pub.dev/firebase_core-2.7.0/macos/Classes/FLTFirebasePlugin.h \
+  /Users/hadongho/.pub-cache/hosted/pub.dev/firebase_core-2.7.0/macos/Classes/FLTFirebaseCorePlugin.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/Target\ Support\ Files/firebase_core/firebase_core-umbrella.h \
+  /Users/hadongho/.pub-cache/hosted/pub.dev/firebase_messaging-14.2.5/macos/Classes/FLTFirebaseMessagingPlugin.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/Headers/Public/Firebase/Firebase.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/Public/FirebaseInstallations/FirebaseInstallations.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseInstallations.build/module.modulemap \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/Public/FirebaseInstallations/FIRInstallationsErrors.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/Public/FirebaseInstallations/FIRInstallationsAuthTokenResult.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/Public/FirebaseInstallations/FIRInstallations.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/Target\ Support\ Files/FirebaseInstallations/FirebaseInstallations-umbrella.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseMessaging/FirebaseMessaging/Sources/Public/FirebaseMessaging/FirebaseMessaging.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseMessaging.build/module.modulemap \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseMessaging/FirebaseMessaging/Sources/Public/FirebaseMessaging/FIRMessagingExtensionHelper.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseMessaging/FirebaseMessaging/Sources/Public/FirebaseMessaging/FIRMessaging.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/Target\ Support\ Files/FirebaseMessaging/FirebaseMessaging-umbrella.h

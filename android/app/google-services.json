@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "3121618070",
+    "project_id": "apptoaster-demo",
+    "storage_bucket": "apptoaster-demo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3121618070:android:dd3e5615edce9f7ee436b7",
+        "android_client_info": {
+          "package_name": "com.apptoaster.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3121618070-702eflv0pqs9am1bodpa5fr8lm9h338b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmpOaqcvJS_4ZNVMEzJNkSvcgH9SjWVxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3121618070-702eflv0pqs9am1bodpa5fr8lm9h338b.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "3121618070-h3692gtc3d53qu4fdmukrptr1b223vhh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.apptoaster.demo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

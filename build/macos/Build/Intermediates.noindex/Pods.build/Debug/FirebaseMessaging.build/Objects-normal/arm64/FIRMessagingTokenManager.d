@@ -1,0 +1,29 @@
+dependencies: \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseMessaging/FirebaseMessaging/Sources/Token/FIRMessagingTokenManager.m \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseMessaging.build/module.modulemap \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseMessaging/FirebaseMessaging/Sources/Token/FIRMessagingTokenManager.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseMessaging/FirebaseMessaging/Sources/Public/FirebaseMessaging/FIRMessaging.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseMessaging/FirebaseInstallations/Source/Library/Private/FirebaseInstallationsInternal.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseInstallations.build/module.modulemap \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/Public/FirebaseInstallations/FIRInstallationsErrors.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/Public/FirebaseInstallations/FIRInstallationsAuthTokenResult.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/Public/FirebaseInstallations/FIRInstallations.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/Public/FirebaseInstallations/FirebaseInstallations.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/Target\ Support\ Files/FirebaseInstallations/FirebaseInstallations-umbrella.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseMessaging/FirebaseMessaging/Sources/FIRMessagingConstants.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseMessaging/FirebaseMessaging/Sources/FIRMessagingDefines.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseMessaging/FirebaseMessaging/Sources/FIRMessagingLogger.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseMessaging/FirebaseMessaging/Sources/FIRMessagingCode.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseMessaging/FirebaseMessaging/Sources/NSError+FIRMessaging.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseMessaging/FirebaseMessaging/Sources/Token/FIRMessagingAuthKeychain.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseMessaging/FirebaseMessaging/Sources/Token/FIRMessagingAuthService.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseMessaging/FirebaseMessaging/Sources/Token/FIRMessagingCheckinService.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseMessaging/FirebaseMessaging/Sources/FIRMessagingUtilities.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseMessaging/FirebaseMessaging/Sources/Token/FIRMessagingCheckinPreferences.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseMessaging/FirebaseMessaging/Sources/Token/FIRMessagingCheckinStore.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseMessaging/FirebaseMessaging/Sources/Token/FIRMessagingTokenDeleteOperation.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseMessaging/FirebaseMessaging/Sources/Token/FIRMessagingTokenOperation.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseMessaging/FirebaseMessaging/Sources/Token/FIRMessagingTokenFetchOperation.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseMessaging/FirebaseMessaging/Sources/Token/FIRMessagingTokenInfo.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseMessaging/FirebaseMessaging/Sources/Token/FIRMessagingAPNSInfo.h \
+  /Users/hadongho/Desktop/apptoaster/projects/demo/macos/Pods/FirebaseMessaging/FirebaseMessaging/Sources/Token/FIRMessagingTokenStore.h

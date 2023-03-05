@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.apptoaster.demo.app-mergeReleaseResources-33:/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "/Users/hadongho/.gradle/caches/transforms-3/107de661f866561529c88161325b4d0e/transformed/appcompat-1.5.1/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    }
+                }
+            ]
+        }
+    ]
+}
